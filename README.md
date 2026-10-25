@@ -106,8 +106,8 @@ When an AI agent requests high-value financial intelligence or compute, the serv
 
 ### 1. Installation
 ```bash
-git clone https://github.com/devesh-75/x402-agent-mesh.git
-cd x402-agent-mesh
+git clone https://github.com/devesh-75/blockchain-x402-LA2.git
+cd blockchain-x402-LA2
 npm install
 ```
 
