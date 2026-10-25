@@ -1,0 +1,39 @@
+{
+  "name": "x402-agent-mesh",
+  "version": "1.0.0",
+  "description": "Decentralized Autonomous AI Agent Knowledge & Compute Marketplace powered by the Linux Foundation / Coinbase x402 Protocol",
+  "main": "src/server.js",
+  "scripts": {
+    "start": "node src/server.js",
+    "dev": "node src/server.js",
+    "test": "node --test tests/x402.test.js",
+    "demo": "node scripts/demo-agent.js"
+  },
+  "keywords": [
+    "x402",
+    "http-402",
+    "payment-required",
+    "ai-agents",
+    "autonomous-agents",
+    "base",
+    "eip-712",
+    "eip-3009",
+    "usdc",
+    "coinbase",
+    "linux-foundation"
+  ],
+  "author": "devesh-75",
+  "license": "Apache-2.0",
+  "dependencies": {
+    "@x402/core": "^2.28.0",
+    "@x402/evm": "^2.28.0",
+    "@x402/express": "^2.28.0",
+    "cors": "^2.8.6",
+    "dotenv": "^18.0.9",
+    "ethers": "^6.17.0",
+    "express": "^5.3.0"
+  },
+  "devDependencies": {
+    "supertest": "^7.3.1"
+  }
+}
